@@ -13,3 +13,9 @@ Useful commands:
 
 4. ansible all --key-file ./.ssh/tower_root_proxmox -i inventory.yml -m ping
     - Pings all hosts
+
+5. ssh -i <path-to-ssh-private-key> <username>@<hostname>
+    - Connect with ssh to some instance
+
+6. lsblk
+    - Print all connected disks and their partitions
