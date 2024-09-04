@@ -19,3 +19,9 @@ Useful commands:
 
 6. lsblk
     - Print all connected disks and their partitions
+
+7. ssh-keygen -t ed25519 -C <key-name>
+    - Generate a ssh key pair
+
+8. ssh-copy-id -i <path-to-public-key> <target-host>
+    - Send your generated public key to the host that you want to connect to later.
