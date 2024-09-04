@@ -1,6 +1,6 @@
 home:
   hosts:
-    tower: 
+    tower-proxmox: 
       ansible_host: "{{ host }}"
       ansible_user: "{{ username }}"
       ansbile_connection: ssh
