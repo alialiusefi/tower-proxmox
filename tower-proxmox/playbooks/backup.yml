@@ -1,0 +1,18 @@
+---
+
+- hosts: 
+    - tower-proxmox
+  become: true
+  
+  tasks: 
+    - setup: 
+        gather_subset: 
+          - distribution
+          - mounts
+    - debug:
+        var: ansible_distribution
+    - debug:
+        var: ansible_mounts
+
+
+
