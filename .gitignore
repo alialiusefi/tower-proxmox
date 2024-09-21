@@ -1,3 +1,4 @@
 .ssh
 .idea
-/tower-proxmox/rsync/test/backups
+/tower-proxmox/rsync/test/backups/**
+*.log
