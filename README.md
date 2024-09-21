@@ -25,3 +25,19 @@ Useful commands:
 
 8. ssh-copy-id -i <path-to-public-key> <target-host>
     - Send your generated public key to the host that you want to connect to later.
+
+9. rm -rfv <path>
+    - Delete all files and folders, including the folder provided.
+
+10. chown <new-owner>:<new-group> <file>
+
+11. ls -l
+    - is used to show files and folders with their respective owner & permissions
+    - result break down
+        - content permissions
+        - number of links
+        - owner
+        - group owner
+        - size in bytes
+        - last modified date/time
+        - file/directory name

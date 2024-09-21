@@ -14,9 +14,12 @@
         var: ansible_mounts
     - name: Print disks
       command: lsblk
+    - name: Copy example file to apollo
+      shell: rsync --recursive      
     # Mount remote hard drive
     # https://serverfault.com/questions/4906/using-dd-for-disk-cloning
     # rsync is safer
-
+    # https://www.pointsoftware.ch/2012/09/12/howto-local-and-remote-snapshot-backup-using-rsync-with-hard-links/
+    
 
 
