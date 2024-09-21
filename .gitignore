@@ -1,2 +1,3 @@
 .ssh
 .idea
+/tower-proxmox/rsync/test/backups
