@@ -101,8 +101,8 @@ fi
 SRC="$1" #name of backup source, may be a remote or local hostname
 OPT="$2" #options (--recheck)
 HOST_PORT=22 #port of source of backup
-SCRIPT_PATH="/backup/snapshot/rsync"
-SNAPSHOT_DST="/backup/snapshot" #destination folder
+SCRIPT_PATH="/Users/ali/Desktop/mylocalrepos/tower-proxmox/rsync/src"
+SNAPSHOT_DST="/Users/ali/Desktop/mylocalrepos/tower-proxmox/rsync/test/backups" #destination folder
 NAME="snapshot" #backup name
 LOG="rsync.log"
 MIN_MIBSIZE=5000 # older snapshots (except snapshot.001) are removed if free disk <= MIN_MIBSIZE. the script may exit without performing a backup if free disk is still short.
