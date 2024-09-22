@@ -1,0 +1,28 @@
+---
+
+- hosts: 
+    - tower-proxmox
+  become: true
+  
+  tasks: 
+    - name: Add no subscription repository to list of sources
+      copy: 
+        src: ../repositories/sources.list
+        dest: /etc/apt/sources.list
+        owner: root
+        group: root
+        mode: u=rw,g=r,o=r
+    - name: Comment out enterprise list
+      copy:
+        src: ../repositories/pve-enterprise.list
+        dest: /etc/apt/sources.list.d/pve-enterprise.list
+        owner: root
+        group: root
+        mode: u=rw,g=r,o=r
+    - name: Comment out enterprise list
+      copy:
+        src: ../repositories/ceph.list
+        dest: /etc/apt/sources.list.d/ceph.list
+        owner: root
+        group: root
+        mode: u=rw,g=r,o=r

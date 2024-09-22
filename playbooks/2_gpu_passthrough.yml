@@ -1,0 +1,52 @@
+- hosts:
+    - tower-proxmox
+  become: true
+  tasks:
+    - name: Replace line in grub to support intel iommu
+      copy:
+        src: ../grub/grub
+        dest: /etc/default/grub
+        owner: root
+        group: root
+        mode: u=rw,g=r,o=r
+    - name: update grub
+      command: update-grub
+    - name: Add modules to load at boot time
+      copy:
+        src: ../modules/modules
+        dest: /etc/modules
+        owner: root
+        group: root
+        mode: u=rw,g=r,o=r
+    - name: Add file - IOMMU interrupt remapping 1
+      shell: echo "options vfio_iommu_type1 allow_unsafe_interrupts=1" > /etc/modprobe.d/iommu_unsafe_interrupts.conf
+    - name: Add file - IOMMU interrupt remapping 2
+      shell: echo "options kvm ignore_msrs=1" > /etc/modprobe.d/kvm.conf
+    - name: Blacklist drivers
+      copy:
+        src: ../blacklist/blacklist.conf
+        dest: /etc/modprobe.d/blacklist.conf
+        owner: root
+        group: root
+        mode: u=rw,g=r,o=r
+    # Get the pci slot number
+    - name: Get VGA Driver ID
+      shell: lspci -v | grep "VGA compatible controller" | cut -c1-5
+      register: vga_driver_id_result
+    - set_fact:
+        vga_driver_id: "{{ vga_driver_id_result.stdout }}"
+    - debug:
+        var: vga_driver_id
+    - name: Get vendor id of gpu
+      shell: lspci -n -s "{{ vga_driver_id }}" | cut -c15-23
+      register: vendor_ids_result
+    - set_fact:
+        vendor_ids: "{{ vendor_ids_result.stdout_lines }}"
+    - debug:
+        var: vendor_ids
+    - name: Add vendor id to vfio
+      shell: echo "options vfio-pci ids={{vendor_ids | join(',')}} disable_vga=1" > /etc/modprobe.d/vfio.conf
+    - name: Update update-initramfs
+      command: update-initramfs -u
+    # - name: reboot proxmox
+    #   command: shutdown -r

@@ -1,0 +1,19 @@
+---
+
+- hosts: 
+    - tower-proxmox
+  become: true
+  
+  tasks: 
+    - name: Gather Subset of Facts
+      setup: 
+        gather_subset: 
+          - mounts
+    - name: Print mounts
+      debug:
+        var: ansible_mounts
+    - name: Gather disks info
+      command: lsblk
+      register: result
+    - debug:
+        var: result.stdout_lines 
