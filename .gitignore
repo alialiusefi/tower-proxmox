@@ -3,3 +3,4 @@
 /tower-proxmox/rsync/test/backups/**
 /tower-proxmox/rsnapshot/test/backups/**
 *.log
+.vscode
