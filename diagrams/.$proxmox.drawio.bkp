@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="ErHKHPUGG5GqiKRkONMT">
+    <mxGraphModel dx="1013" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3BOxkhqRVHqWk04eB204-55" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="60" y="790" width="420" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="97.5" width="460" height="812.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="60" width="390" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-2" value="Apollo Instance; IP Address: 192.168.0.232" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="50" y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" parent="1" vertex="1">
+          <mxGeometry x="95" y="80" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-4" value="&lt;div&gt;Jellyfin&lt;br&gt; Port 8096&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-5" value="&lt;div&gt;Baikal&lt;br&gt; Port 1122&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="240" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-6" value="&lt;div&gt;Dupeguru&lt;br&gt; Port 5800&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="310" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-7" value="&lt;div&gt;Gitea&lt;br&gt; Git Port 222&lt;br&gt;GUI Port 3000&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="380" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-8" value="&lt;div&gt;Immich&lt;br&gt; Port 2283&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="450" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-10" value="&lt;div&gt;Qbittorrent&lt;br&gt; Port 2333&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="520" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-13" value="&lt;div&gt;Registry&lt;br&gt; Port 5000&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="590" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3BOxkhqRVHqWk04eB204-17" target="3BOxkhqRVHqWk04eB204-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-17" value="&lt;div&gt;Git&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="1000" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3BOxkhqRVHqWk04eB204-23" target="3BOxkhqRVHqWk04eB204-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3BOxkhqRVHqWk04eB204-23" target="3BOxkhqRVHqWk04eB204-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-23" value="Ansible" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="820" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-29" value="Proxmox" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="745" y="67.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3BOxkhqRVHqWk04eB204-35" target="3BOxkhqRVHqWk04eB204-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="447.5" width="370" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-37" value="VMs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="900" y="417.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-38" value="Ubuntu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="865" y="461.25" width="80" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="461.25" width="240" height="131.25" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-41" value="Unraid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="695" y="467.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="615" y="617.5" width="235" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-22" value="Kubernetes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="692.5" y="592.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-19" value="CI/CD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="627.5" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="592.5" y="137.5" width="365" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-48" value="Storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="887.5" y="107.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-20" value="ISO Registry" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="157.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-56" value="User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="140" y="760" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-57" value="Credentials" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="920" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-44" value="Docker Image Registry" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="207.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-59" value="Container Metadata Storage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="157.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-60" value="Unraid State Configuration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="207.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-61" value="Container State Configuration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="257.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-62" value="Proxmox State Configuration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="257.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="97.5" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-66" value="Tower File Storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="67.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-67" value="Proxmox VE SSD 120GB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="117.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-68" value="Future VMs HIGH IO SSD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="117.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-70" value="HDD with data 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="117.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3BOxkhqRVHqWk04eB204-23" target="3BOxkhqRVHqWk04eB204-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-74" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.operating_system_image;" parent="1" vertex="1">
+          <mxGeometry x="310" y="100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-75" value="Proxmox backup image" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-77" value="Proxmox restore ansible playbook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="115" y="1100" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-78" value="Proxmox backup ansible playbook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="115" y="1010" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-79" value="Apollo Mount" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

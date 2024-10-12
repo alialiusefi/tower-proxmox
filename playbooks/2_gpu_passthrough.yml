@@ -45,13 +45,14 @@
     - debug:
         var: vendor_ids
     - name: Add vendor id to vfio
-      shell: echo "options vfio-pci ids={{vendor_ids | join(',')}} disable_vga=0" > /etc/modprobe.d/vfio.conf
+      shell: echo "options vfio-pci ids={{vendor_ids | join(',')}} disable_vga=1" > /etc/modprobe.d/vfio.conf
     - name: Update update-initramfs
       command: update-initramfs -u
+    # https://unix.stackexchange.com/questions/613910/dump-vga-bios-from-linux
     - name: Copy gpu rom
       copy:
-        src: ../roms/GT630.rom
-        dest: /usr/share/kvm/GT630.rom
+        src: ../roms/GTX770.rom
+        dest: /usr/share/kvm/GTX770.rom
         owner: root
         group: root
         mode: u=rw,g=r,o=r
