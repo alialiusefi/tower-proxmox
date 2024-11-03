@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="ErHKHPUGG5GqiKRkONMT">
-    <mxGraphModel dx="1013" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1570" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,9 +47,6 @@
           <mxGeometry x="95" y="1000" width="180" height="170" as="geometry" />
         </mxCell>
         <mxCell id="3BOxkhqRVHqWk04eB204-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3BOxkhqRVHqWk04eB204-23" target="3BOxkhqRVHqWk04eB204-57" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3BOxkhqRVHqWk04eB204-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3BOxkhqRVHqWk04eB204-23" target="3BOxkhqRVHqWk04eB204-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3BOxkhqRVHqWk04eB204-23" value="Ansible" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -116,19 +113,13 @@
           <mxGeometry x="760" y="257.5" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3BOxkhqRVHqWk04eB204-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1070" y="97.5" width="480" height="240" as="geometry" />
+          <mxGeometry x="1070" y="97.5" width="450" height="432.5" as="geometry" />
         </mxCell>
         <mxCell id="3BOxkhqRVHqWk04eB204-66" value="Tower File Storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1080" y="67.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3BOxkhqRVHqWk04eB204-67" value="Proxmox VE SSD 120GB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="117.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3BOxkhqRVHqWk04eB204-68" value="Future VMs HIGH IO SSD" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="117.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3BOxkhqRVHqWk04eB204-70" value="HDD with data 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="117.5" width="120" height="60" as="geometry" />
+        <mxCell id="3BOxkhqRVHqWk04eB204-67" value="Proxmox VE SSD 120GB" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="117.5" width="310" height="162.5" as="geometry" />
         </mxCell>
         <mxCell id="3BOxkhqRVHqWk04eB204-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3BOxkhqRVHqWk04eB204-23" target="3BOxkhqRVHqWk04eB204-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -136,7 +127,7 @@
         <mxCell id="3BOxkhqRVHqWk04eB204-74" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.operating_system_image;" parent="1" vertex="1">
           <mxGeometry x="310" y="100" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3BOxkhqRVHqWk04eB204-75" value="Proxmox backup image" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3BOxkhqRVHqWk04eB204-75" value="Proxmox VM Backups" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="265" y="170" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3BOxkhqRVHqWk04eB204-77" value="Proxmox restore ansible playbook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -145,8 +136,23 @@
         <mxCell id="3BOxkhqRVHqWk04eB204-78" value="Proxmox backup ansible playbook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="1010" width="140" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="SQX8-_MkT6xojRqiwn1Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3BOxkhqRVHqWk04eB204-79" target="3BOxkhqRVHqWk04eB204-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3BOxkhqRVHqWk04eB204-79" value="Apollo Mount" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="610" y="320" width="140" height="40" as="geometry" />
+          <mxGeometry x="610" y="315" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gJCs7ATBmi5di6ybNAP7-1" value="&lt;ul&gt;&lt;li&gt;GRUB Partition (BIOS boot) /sda1 FAT&lt;/li&gt;&lt;li&gt;UEFI Partition /sda2 (EFI System)&amp;nbsp;&lt;/li&gt;&lt;li&gt;Proxmox Partition /sda3 (PV LVM)&lt;/li&gt;&lt;li&gt;Live VMs Partition /sda4 (PV LVM)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/vms Volume Group&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/windows10 Logical Volume&lt;/li&gt;&lt;li&gt;/ubuntu Logical Volume&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="137.5" width="280" height="142.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gJCs7ATBmi5di6ybNAP7-5" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1090" y="287.5" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3BOxkhqRVHqWk04eB204-70" value="Blink HDD" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gJCs7ATBmi5di6ybNAP7-5" vertex="1">
+          <mxGeometry width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gJCs7ATBmi5di6ybNAP7-3" value="&lt;ul&gt;&lt;li&gt;Partition1&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/static Volume Group&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/isos Logical Volume&lt;/li&gt;&lt;li&gt;/vmbackups Logical Volume&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gJCs7ATBmi5di6ybNAP7-5" vertex="1">
+          <mxGeometry x="10" y="20" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

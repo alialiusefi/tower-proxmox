@@ -2,12 +2,19 @@ Useful commands:
 
 # https://www.youtube.com/watch?v=MeltFN-bXrQ
 
+0. Creating a partition:
+    - fdisk
 1. Physical Volume commands:
     - pvdisplay
+    - pvresize --setphysicalvolumesize 50G /dev/sda3
+    - pvresize /dev/sdb1
 2. Volume Group commands:
     - vgdisplay
+    - vgcreate <name> <physical-volume-name> # there can be only one volume group per partition
+    - vgextend <name> /dev/<physical-volume-name> # to add a physical volume to the volume group
 3. Logical volume commands:
     - lvcreate <existing-volume-group-name> -L <size-in-gb>G -n <name>
+    - lvchange -a y <existing-lv-name>
 4. Print all filesystems attached:
     - df -h
 5. Format and create a filesystem:

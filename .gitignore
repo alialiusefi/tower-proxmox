@@ -4,3 +4,5 @@
 /tower-proxmox/rsnapshot/test/backups/**
 *.log
 .vscode
+.env
+.DS_store
