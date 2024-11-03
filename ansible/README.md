@@ -11,7 +11,7 @@ Useful commands:
     - Pings all hosts
     - Expects ssh file and inventory config file configured in ansible.cfg
 
-4. ansible all --key-file ./.ssh/tower_root_proxmox -i inventory.yml -m ping
+4. ansible all --key-file ../.ssh/tower_root_proxmox -i inventory.yml -m ping
     - Pings all hosts
 
 5. ssh -i <path-to-ssh-private-key> <username>@<hostname>

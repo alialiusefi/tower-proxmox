@@ -16,14 +16,14 @@
         force: yes
     - name: Copy rsnapshot config
       copy: 
-        src: ../rsnapshot/rsnapshot.conf
+        src: ../../rsnapshot/rsnapshot.conf
         dest: /etc/rsnapshot.conf
         owner: root
         group: root
         mode: u=rw,g=r,o=r
     - name: Copy rsnapshot include/exclude settings
       copy:
-        src: ../rsnapshot/filters/
+        src: ../../rsnapshot/filters/
         dest: /etc/rsnapshot
         owner: root
         group: root

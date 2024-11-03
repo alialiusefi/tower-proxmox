@@ -4,7 +4,7 @@
   tasks:
     - name: Replace line in grub to support intel iommu
       copy:
-        src: ../grub/grub
+        src: ../../grub/grub
         dest: /etc/default/grub
         owner: root
         group: root
@@ -13,7 +13,7 @@
       command: update-grub
     - name: Add modules to load at boot time
       copy:
-        src: ../modules/modules
+        src: ../../modules/modules
         dest: /etc/modules
         owner: root
         group: root
@@ -24,7 +24,7 @@
       shell: echo "options kvm ignore_msrs=1" > /etc/modprobe.d/kvm.conf
     - name: Blacklist drivers
       copy:
-        src: ../blacklist/blacklist.conf
+        src: ../../blacklist/blacklist.conf
         dest: /etc/modprobe.d/blacklist.conf
         owner: root
         group: root
@@ -51,7 +51,7 @@
     # https://unix.stackexchange.com/questions/613910/dump-vga-bios-from-linux
     - name: Copy gpu rom
       copy:
-        src: ../roms/GTX770.rom
+        src: ../../roms/GTX770.rom
         dest: /usr/share/kvm/GTX770.rom
         owner: root
         group: root
