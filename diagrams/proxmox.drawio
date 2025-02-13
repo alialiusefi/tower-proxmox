@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
   <diagram name="Page-1" id="ErHKHPUGG5GqiKRkONMT">
-    <mxGraphModel dx="1963" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,7 +136,7 @@
         <mxCell id="3BOxkhqRVHqWk04eB204-78" value="Proxmox backup ansible playbook" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="115" y="1010" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SQX8-_MkT6xojRqiwn1Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3BOxkhqRVHqWk04eB204-79" target="3BOxkhqRVHqWk04eB204-75">
+        <mxCell id="SQX8-_MkT6xojRqiwn1Y-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3BOxkhqRVHqWk04eB204-79" target="3BOxkhqRVHqWk04eB204-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3BOxkhqRVHqWk04eB204-79" value="Apollo Mount" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -153,6 +153,9 @@
         </mxCell>
         <mxCell id="gJCs7ATBmi5di6ybNAP7-3" value="&lt;ul&gt;&lt;li&gt;Partition1&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/static Volume Group&lt;/li&gt;&lt;ul&gt;&lt;li&gt;/isos Logical Volume&lt;/li&gt;&lt;li&gt;/vmbackups Logical Volume&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="gJCs7ATBmi5di6ybNAP7-5" vertex="1">
           <mxGeometry x="10" y="20" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="op6zHpwKbBYvyu1dc6DJ-1" value="&lt;div&gt;Homepage&lt;/div&gt;&lt;div&gt;Port 80&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="657.5" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
