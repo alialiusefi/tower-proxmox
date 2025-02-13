@@ -15,9 +15,9 @@ Useful commands:
 3. Logical volume commands:
     - lvcreate <existing-volume-group-name> -L <size-in-gb>G -n <name>
     - lvchange -a y <existing-lv-name>
-    Create a pool:
+    - Create a pool:
         - lvcreate -L 100M -T vg001/mythinpool
-    Create a volume from a thin pool:
+    - Create a volume from a thin pool:
         - lvcreate -V1G -T vg001/mythinpool -n thinvolume
 4. Print all filesystems attached:
     - df -h
