@@ -28,3 +28,5 @@ Useful commands:
     - nano /etc/fstab
     - add a row: UUID=<blkid of your lv> <mount-path> ext4 defaults 0 2
     - example: UUID=0d06573b-89f6-41f2-bf12-7a0e00bde354 /mnt/vmbackups ext4 defaults 0 2
+7. lsblk
+    - Print all connected disks and their partitions 
