@@ -1,2 +1,37 @@
 services:
-  
+  duplicati:
+    image: duplicati/duplicati:2.1.0.117
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - SETTINGS_ENCRYPTION_KEY=
+      - CLI_ARGS= #optional
+      - DUPLICATI__WEBSERVICE_PASSWORD= #optional
+      - DUPLICATI__WEBSERVICE_ALLOWED_HOSTNAMES=unraid.saturn.private
+    volumes:
+      - config:/config
+      - backups:/backups
+      - source:/source
+    ports:
+      - 8200:8200
+    restart: always
+volumes:
+  config:
+    driver: local
+    driver_opts:
+      type: none
+      device: "/mnt/user/appdata/duplicati/config"
+      o: bind
+  backups:
+    driver: local
+    driver_opts:
+      type: none
+      device: "/mnt/user/appdata/duplicati/backups"
+      o: bind
+  source:
+    driver: local
+    driver_opts:
+      type: none
+      device: "/mnt/user"
+      o: bind
